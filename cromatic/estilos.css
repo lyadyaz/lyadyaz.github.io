@@ -1,0 +1,432 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box}
+
+body{
+	margin: 0;
+	background-color: #000328;
+	font-family: 'Montserrat', sans-serif;
+}
+.centrar{
+	max-width: 100%;
+	margin:auto;
+}
+
+.menu{
+	width: 100%;
+	background-color: #000328;
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: right;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.menu img{
+	width:120px;
+	padding: 10px;
+	float:left;
+	margin-top: 3px;
+	margin-right: 200px;
+	margin-left: 100px;
+}
+
+.menu a{
+	color: white;
+	text-decoration:none;
+	padding:25px;
+	float: left;
+	text-align:right;
+	display: block;
+}
+
+.menu a:hover{
+	color:  #2630AC;
+}
+
+.banner video{
+	width: 100%;	
+} 
+
+.equipo{
+	width: 100%;
+	background-color: #000328;
+	font-size: 16px;
+	font-weight:500;
+	text-align: left;
+	color: white;
+	padding:25px;
+	overflow: hidden;
+}
+
+.ale{
+	width:33.33%;
+	padding: 10px;
+	float:left;
+	text-align: left;
+}
+
+.ale img{
+	float:right;
+	width: 200px;
+}
+
+.ale h2{
+	font-weight:400;
+	text-align: left;
+	margin: 165px 0px 80px 200px;
+	position:absolute;
+	z-index: 1;
+}
+
+.ale p{
+	font-weight:200;
+	text-align: left;
+	margin: 222px 0px 80px 200px;
+	position:absolute;
+	font-size: 12px;
+	opacity:55%;
+	z-index: 1;
+}
+
+.ana{
+	width:33.33%;
+	padding: 10px;
+	float: left;
+	text-align: left;
+}
+
+.ana img{
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+.ana h2{
+	font-weight:400;
+	text-align: left;
+	margin: -35px 0px 0px 100px;
+	position:absolute;
+	z-index: 1;
+}
+
+.ana p{
+	font-weight:200;
+	text-align: left;
+	margin: 23px 0px 0px 100px;
+	position:absolute;
+	font-size: 12px;
+	opacity:55%;
+	z-index: 1;
+}
+
+.yoana{
+	width:33.33%;
+	padding: 10px;
+	float:left;
+	text-align: left;
+}
+
+.yoana img{
+	float:left;
+	width: 200px;
+}
+
+.yoana h2{
+	font-weight:400;
+	text-align: left;
+	margin: 167px 0px 0px 0px;
+	position:absolute;
+	z-index: 1;
+}
+
+.yoana p{
+	font-weight:200;
+	text-align: left;
+	margin: 222px 0px 0px 0px;
+	position:absolute;
+	font-size: 12px;
+	opacity:55%;
+	z-index: 1;
+}
+
+.contacto{
+	width: 100%;
+	background-color: #000328;
+	font-size: 16px;
+	font-weight:500;
+	text-align: center;
+	color: white;
+	padding:80px;
+	overflow: hidden;
+}
+
+.contacto h3{
+	font-size: 16px;
+	font-weight:lighter;
+	letter-spacing: 6px;
+	margin-top: -20px;
+}
+
+.contact-form form button,
+.contact-form form input {
+    width: 40%;
+    margin-top: 30px;
+    border: none;
+    background: #000328;
+    outline: 0;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+.contact-form form button {
+   background: linear-gradient(to right, #BC40D9, #FF40D9); 
+    border: 0;
+    text-transform: uppercase;
+    padding: 7px;
+	margin-top: -50px;
+	width: 100px;
+	border-radius: 15px;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: linear-gradient(to right, #0C55DB, #9330FF);  
+    color: #FFFFFF;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contacto p{
+	font-size: 12px;
+	font-weight: 200;
+	margin-top: 40px;
+}
+
+.footer{
+	float: left;
+}
+
+.footer img{
+	width: 30px;
+}
+
+.footer1{
+	float: right;
+}
+
+.footer1 img{
+	width: 18px;
+	float: right;
+	margin: 0px 5px 0px 5px;
+}
+
+.pie{
+	text-align: left;
+	padding: 10px;
+	background: linear-gradient(#000328, #040644);
+	color: white;
+	font-size: 7px;
+	overflow: hidden;
+}
+
+.top{
+	width: 100%;
+	padding: 10px;
+	background-color: #000328;
+	display: none;
+}
+
+.top img{
+	width: 39px;
+}
+
+.menu .icon {
+  display: none;
+}
+
+.hola {
+	color: white;
+	text-align: center;
+}
+
+.encabezado{
+	font-size: 64px;
+	margin-top: 100px;
+}
+
+.encabezado input {
+	font-family: montserrat;
+	font-size: 36px;
+	margin: 2px;
+	background-color: #000328;
+	color: white;
+	text-align: center;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom-color: white;
+	outline-style: none;
+}
+
+.texto{
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: -20px;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+}
+
+.categorias{
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	color: white;
+	padding: 25px;
+	overflow: hidden;
+}
+
+.foto, .motion, .web, .identidad {
+	width: 50%;
+	padding: 30px;
+	float: left;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.foto img, .motion img, .web img, .identidad img{
+	width: 494px;
+}
+
+.foto:hover, .motion:hover, .web:hover, .identidad:hover {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+.texto2{
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	color: white;
+	padding: 25px;
+	overflow: hidden;
+}
+
+.carrousel iframe{
+	width: 100%;
+	height: 700px;
+	border: none;
+}
+
+.proyectos{
+	width: 100%;
+	float: left;
+	padding: 0 25px 0 ;
+	display: none;
+	margin-top: 0px;
+}
+
+.proyectos img{
+	width: 100%;
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 956px) {
+  .menu a{display: none;}
+  .menu a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .menu.responsive .icon {
+    position: absolute;
+    left: 0;
+    top: 0; 
+	color: #303899;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    position:relative;
+    left:40px;   
+  }
+	
+	
+}
+
+@media screen and (max-width: 956px){
+	.menu img{
+		display: none; 
+	}
+	
+	.menu{text-align: center; }
+	
+	.top{display: block; }
+	
+}
+
+@media screen and (max-width:956px){
+
+.yoana, .ana, .ale{
+	width:100%;
+	padding: 10px;
+	text-align: left;
+	float: left;
+	position:none;
+	margin: 0px 0px 0px 0px;
+}
+
+}
+
+@media screen and (max-width:900px){
+	.encabezado{
+		font-size: 44px;
+	}
+	.texto{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:700px){
+	.encabezado, .texto, .encabezado input{
+		font-size: 26px;
+	}
+	.encabezado {
+		padding-bottom: 15px;;
+	}
+}
+
+@media screen and (max-width:956px){
+	.foto, .motion, .web, .identidad{
+		width: 100%;
+	}
+	.foto img, .motion img, .web img, .identidad img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:850px){
+	.carrousel iframe{
+		width: 100%;
+		height: 700px;
+	}
+}
+
+@media screen and (max-width:800px){
+	.carrousel iframe{
+		display: none;
+	}
+	.proyectos{
+		display: inline;
+	}
+}
