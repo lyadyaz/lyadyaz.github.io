@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="imagenes/favicon.png"/>
+<style>
+	#wrapper{
+  height:100%;
+}
+
+#img{
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+#palabras{
+  bottom:30px;
+  position:fixed;
+  text-align:center;
+  width:100%;
+	font-family: montserrat;
+	font-weight: 700;
+	background-color: white;
+	
+}
+		#palabras a{
+			color:#5082B7;
+			text-decoration: none;
+			margin: 20px;
+			
+			
+		}
+		
+#palabras > div{
+  display:inline-block;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+		
+	</style>
+<meta charset="utf-8">
+<title>Portafolio académico</title>
+	</head>
+	
+	
+<body>
+	<div id="wrapper">
+  <div id="img"></div>
+  <div id="palabras">
+    <div class="palabra" data-category="pub"><a href="publicidad.html">PUBLICIDAD</a></div>
+    <div class="palabra" data-category="uxui"><a href="uxui.html">UX/UI</a></div>
+    <div class="palabra" data-category="ilu"><a href="ilustracion.html">ILUSTRACIÓN</a></div>
+	<div class="palabra" data-category="foto"><a href="fotografia.html">FOTOGRAFÍA</a></div>
+    <div class="palabra" data-category="edi"><a href="editorial.html">EDITORIAL</a></div>
+  </div>
+		
+	
+</div>
+	
+	<script>
+	const palabras = document.getElementsByClassName('palabra');
+
+Array.from(palabras).forEach((elemento) => {
+  
+  elemento.addEventListener('mouseover', (e) => {
+    let category = elemento.getAttribute("data-category");
+    const img = document.getElementById("img");
+    
+    switch(category) {
+      case "pub": var stringImg = `<img src="imagenes/avante.png" >`;break;
+      case "uxui": var stringImg = `<img src="imagenes/web.png" >`;break;
+      case "ilu": var stringImg = `<img src="imagenes/ilu.png">`;break;
+	  case "foto": var stringImg = `<img src="imagenes/foto.png">`;break;
+	  case "edi": var stringImg = `<img src="imagenes/edi.png">`;break;
+    }
+    
+    img.innerHTML = stringImg;
+    
+  });
+
+}); 
+	
+	</script>
+</body>
+</html>

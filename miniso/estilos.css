@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("imagenes/back.jpg");
+}
+*{box-sizing: border-box;}
+
+h1,h2{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#463823;
+	
+}
+
+h5{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:black;
+	margin-bottom: -10px;
+	letter-spacing:10px;
+}
+
+p{
+	color:black;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+a:link, a:visited{
+	color:white;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration:none;
+margin-right: 50px;
+font-size:80%;
+font-weight: 200;}
+
+a:hover, a:active{
+	color:wheat;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight:500;}
+
