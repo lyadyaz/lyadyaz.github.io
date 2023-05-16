@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pizza Deprizza - INICIO</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="imagenes/icon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="centrar">
+	<div class="top"><center><img src="imagenes/logo.png"></center></div>	
+		
+	
+	<div class="menu" id="myTopnav">
+		<img src="imagenes/logo.png">
+		<a href="inicio.html">INICIO</a>
+		<a href="menu.html">MENÚ</a>
+		<a href="paquetes.html">PAQUETES</a>
+		<a href="historia.html">HISTORIA</a>
+		<a href="sucursales.html">SUCURSALES</a>
+		<a href="contacto.html">CONTACTO</a>
+		<a href="vacantes.html">VACANTES</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>		
+  		</a>	
+	</div>
+		
+	<div class="fondo"> <img src="imagenes/inicio/banner.png"> </div>
+	
+	<div class="info"><h2>Conoce la variedad de pizzas y paquetes que tenemos para ti.</h2></div>
+	
+	<div class="paquete"><img src="imagenes/inicio/pepperoni.png"><br><h1>Clásica</h1><h2>$89</h2><p>Pizza de pepperoni<br><br><br><a href="menu.html"> VER MENÚ</a></p></div>
+	
+	<div class="paquete"><img src="imagenes/inicio/chile.png"><br><h1>Jalapeño</h1><h2>$135</h2><p>Pizza de pepperoni y jalapeño<br><br><br><a href="menu.html"> VER MENÚ</a></p></div>
+	
+	<div class="paquete"><img src="imagenes/paquetes/DelSabor.png"><br><h1>Paquete Del Sabor</h1><h2>$155</h2><p>1 pizza de pepperoni <br> Combo Sabor <br> Refresco de 2L<br><br><br><a href="paquetes.html"> VER PAQUETES</a></p></div>
+	
+	<div class="paquete"><img src="imagenes/paquetes/Deprizzero.png"><br><h1>Paquete Deprizzero</h1><h2>$155</h2><p>1 pizza de pepperoni <br> Papas en gajo <br> Refresco de 2L<br><br><br><a href="paquetes.html"> VER PAQUETES</a></p></div>
+	
+	
+	
+	<div class="info"><h2>Conoce nuestras sucursales y encuentra tu sucursal más cercana.</h2></div>
+	
+	<div class="sucursal">
+	<a href="sucursales.html"><img src="imagenes/inicio/nuevoleon.jpg" onMouseOver="this.src='imagenes/inicio/sucursal.jpg'" onMouseOut="this.src='imagenes/inicio/nuevoleon.jpg'"></a></div>
+
+	<div class="sucursal">
+	<a href="sucursales.html"><img src="imagenes/inicio/tamaulipas.jpg" onMouseOver="this.src='imagenes/inicio/sucursal.jpg'" onMouseOut="this.src='imagenes/inicio/tamaulipas.jpg'"></a></div>
+	
+	<div class="sucursal">
+	<a href="sucursales.html"><img src="imagenes/inicio/coahuila.jpg" onMouseOver="this.src='imagenes/inicio/sucursal.jpg'" onMouseOut="this.src='imagenes/inicio/coahuila.jpg'"></a></div>
+	
+	<div class="sucursal">
+	<a href="sucursales.html"><img src="imagenes/inicio/guanajuato.jpg" onMouseOver="this.src='imagenes/inicio/sucursal.jpg'" onMouseOut="this.src='imagenes/inicio/guanajuato.jpg'"></a></div>
+	
+	<div class="redes">
+	<a href="https://www.facebook.com/PizzaDeprizzaa" target="_blank"><img src="imagenes/contacto/facebook.png"></a>
+	<h2>Pizza Deprizza</h2>
+	</div>
+	
+	<div class="redes">
+	<img src="imagenes/inicio/telefono.png"><h2>Llama, ordena y recoge en tienda<br>81 83 14 35 68</h2></div>
+		
+	<div class="redes">
+	<a href="contacto.html"><img src="imagenes/contacto/correo.png"></a>
+	<h2>Envíanos tus dudas, comentarios y sugerencias<br>contacto@pizzadprizza.com</h2></div>
+	
+	<div class="pie">
+		<p >Copyrights © 2014 Todos los derechos reservados. Pizza Deprizza.</p>
+		<a href="https://www.facebook.com/PizzaDeprizzaa"><img  src="imagenes/facebook.png"></a>
+	</div> 
+		
+	</div>
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+</script>		
+	
+</body>
+</html>
